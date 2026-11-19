@@ -1,0 +1,483 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0001_ds273_20245_tract'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2020-2024
+Geographic level: Census Tract (by State--County)
+Extent:           Nebraska
+Dataset:          2024 American Community Survey: 5-Year Data [2020-2024, Tracts & Larger Areas]
+   NHGIS code:    2020_2024_ACS5b
+   NHGIS ID:      ds273
+Breakdown(s):     Geographic Component:
+                     Total area (00)
+Data type(s):     (E) Estimates
+                  (M) Margins of error
+ 
+Tables:
+ 
+1. Poverty Status in the Past 12 Months by Sex by Age
+   Universe:    Population for whom poverty status is determined
+   Source code: B17001
+   NHGIS code:  AU77
+ 
+2. Sex by Age by Disability Status
+   Universe:    Civilian noninstitutionalized population
+   Source code: B18101
+   NHGIS code:  AU9J
+ 
+3. Health Insurance Coverage Status by Sex by Age
+   Universe:    Civilian noninstitutionalized population
+   Source code: B27001
+   NHGIS code:  AVH7
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        STUSAB:      State Postal Abbreviation
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AIHHTLI:     American Indian/Hawaiian Home Land Trust Land Indicator
+        AITSA:       Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (2025-2027, 119th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        ZCTA5A:      5-Digit ZIP Code Tabulation Area Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PCI:         Principal City Indicator
+        PUMAA:       Public Use Microdata Area Code
+        GEO_ID:      Census Geographic Identifier
+        BTTRA:       Tribal Census Tract Code
+        TL_GEO_ID:   TIGER/Line Shapefile Geographic Identifier
+ 
+Data Type (E):
+    Estimates
+ 
+        NAME_E:      Area Name
+ 
+    Table 1:     Poverty Status in the Past 12 Months by Sex by Age
+    Universe:    Population for whom poverty status is determined
+    Source code: B17001
+    NHGIS code:  AU77
+        AU77E001:    Total
+        AU77E002:    Income in the past 12 months below poverty level
+        AU77E003:    Income in the past 12 months below poverty level: Male
+        AU77E004:    Income in the past 12 months below poverty level: Male: Under 5 years
+        AU77E005:    Income in the past 12 months below poverty level: Male: 5 years
+        AU77E006:    Income in the past 12 months below poverty level: Male: 6 to 11 years
+        AU77E007:    Income in the past 12 months below poverty level: Male: 12 to 14 years
+        AU77E008:    Income in the past 12 months below poverty level: Male: 15 years
+        AU77E009:    Income in the past 12 months below poverty level: Male: 16 and 17 years
+        AU77E010:    Income in the past 12 months below poverty level: Male: 18 to 24 years
+        AU77E011:    Income in the past 12 months below poverty level: Male: 25 to 34 years
+        AU77E012:    Income in the past 12 months below poverty level: Male: 35 to 44 years
+        AU77E013:    Income in the past 12 months below poverty level: Male: 45 to 54 years
+        AU77E014:    Income in the past 12 months below poverty level: Male: 55 to 64 years
+        AU77E015:    Income in the past 12 months below poverty level: Male: 65 to 74 years
+        AU77E016:    Income in the past 12 months below poverty level: Male: 75 years and over
+        AU77E017:    Income in the past 12 months below poverty level: Female
+        AU77E018:    Income in the past 12 months below poverty level: Female: Under 5 years
+        AU77E019:    Income in the past 12 months below poverty level: Female: 5 years
+        AU77E020:    Income in the past 12 months below poverty level: Female: 6 to 11 years
+        AU77E021:    Income in the past 12 months below poverty level: Female: 12 to 14 years
+        AU77E022:    Income in the past 12 months below poverty level: Female: 15 years
+        AU77E023:    Income in the past 12 months below poverty level: Female: 16 and 17 years
+        AU77E024:    Income in the past 12 months below poverty level: Female: 18 to 24 years
+        AU77E025:    Income in the past 12 months below poverty level: Female: 25 to 34 years
+        AU77E026:    Income in the past 12 months below poverty level: Female: 35 to 44 years
+        AU77E027:    Income in the past 12 months below poverty level: Female: 45 to 54 years
+        AU77E028:    Income in the past 12 months below poverty level: Female: 55 to 64 years
+        AU77E029:    Income in the past 12 months below poverty level: Female: 65 to 74 years
+        AU77E030:    Income in the past 12 months below poverty level: Female: 75 years and over
+        AU77E031:    Income in the past 12 months at or above poverty level
+        AU77E032:    Income in the past 12 months at or above poverty level: Male
+        AU77E033:    Income in the past 12 months at or above poverty level: Male: Under 5 years
+        AU77E034:    Income in the past 12 months at or above poverty level: Male: 5 years
+        AU77E035:    Income in the past 12 months at or above poverty level: Male: 6 to 11 years
+        AU77E036:    Income in the past 12 months at or above poverty level: Male: 12 to 14 years
+        AU77E037:    Income in the past 12 months at or above poverty level: Male: 15 years
+        AU77E038:    Income in the past 12 months at or above poverty level: Male: 16 and 17 years
+        AU77E039:    Income in the past 12 months at or above poverty level: Male: 18 to 24 years
+        AU77E040:    Income in the past 12 months at or above poverty level: Male: 25 to 34 years
+        AU77E041:    Income in the past 12 months at or above poverty level: Male: 35 to 44 years
+        AU77E042:    Income in the past 12 months at or above poverty level: Male: 45 to 54 years
+        AU77E043:    Income in the past 12 months at or above poverty level: Male: 55 to 64 years
+        AU77E044:    Income in the past 12 months at or above poverty level: Male: 65 to 74 years
+        AU77E045:    Income in the past 12 months at or above poverty level: Male: 75 years and over
+        AU77E046:    Income in the past 12 months at or above poverty level: Female
+        AU77E047:    Income in the past 12 months at or above poverty level: Female: Under 5 years
+        AU77E048:    Income in the past 12 months at or above poverty level: Female: 5 years
+        AU77E049:    Income in the past 12 months at or above poverty level: Female: 6 to 11 years
+        AU77E050:    Income in the past 12 months at or above poverty level: Female: 12 to 14 years
+        AU77E051:    Income in the past 12 months at or above poverty level: Female: 15 years
+        AU77E052:    Income in the past 12 months at or above poverty level: Female: 16 and 17 years
+        AU77E053:    Income in the past 12 months at or above poverty level: Female: 18 to 24 years
+        AU77E054:    Income in the past 12 months at or above poverty level: Female: 25 to 34 years
+        AU77E055:    Income in the past 12 months at or above poverty level: Female: 35 to 44 years
+        AU77E056:    Income in the past 12 months at or above poverty level: Female: 45 to 54 years
+        AU77E057:    Income in the past 12 months at or above poverty level: Female: 55 to 64 years
+        AU77E058:    Income in the past 12 months at or above poverty level: Female: 65 to 74 years
+        AU77E059:    Income in the past 12 months at or above poverty level: Female: 75 years and over
+ 
+    Table 2:     Sex by Age by Disability Status
+    Universe:    Civilian noninstitutionalized population
+    Source code: B18101
+    NHGIS code:  AU9J
+        AU9JE001:    Total
+        AU9JE002:    Male
+        AU9JE003:    Male: Under 5 years
+        AU9JE004:    Male: Under 5 years: With a disability
+        AU9JE005:    Male: Under 5 years: No disability
+        AU9JE006:    Male: 5 to 17 years
+        AU9JE007:    Male: 5 to 17 years: With a disability
+        AU9JE008:    Male: 5 to 17 years: No disability
+        AU9JE009:    Male: 18 to 34 years
+        AU9JE010:    Male: 18 to 34 years: With a disability
+        AU9JE011:    Male: 18 to 34 years: No disability
+        AU9JE012:    Male: 35 to 64 years
+        AU9JE013:    Male: 35 to 64 years: With a disability
+        AU9JE014:    Male: 35 to 64 years: No disability
+        AU9JE015:    Male: 65 to 74 years
+        AU9JE016:    Male: 65 to 74 years: With a disability
+        AU9JE017:    Male: 65 to 74 years: No disability
+        AU9JE018:    Male: 75 years and over
+        AU9JE019:    Male: 75 years and over: With a disability
+        AU9JE020:    Male: 75 years and over: No disability
+        AU9JE021:    Female
+        AU9JE022:    Female: Under 5 years
+        AU9JE023:    Female: Under 5 years: With a disability
+        AU9JE024:    Female: Under 5 years: No disability
+        AU9JE025:    Female: 5 to 17 years
+        AU9JE026:    Female: 5 to 17 years: With a disability
+        AU9JE027:    Female: 5 to 17 years: No disability
+        AU9JE028:    Female: 18 to 34 years
+        AU9JE029:    Female: 18 to 34 years: With a disability
+        AU9JE030:    Female: 18 to 34 years: No disability
+        AU9JE031:    Female: 35 to 64 years
+        AU9JE032:    Female: 35 to 64 years: With a disability
+        AU9JE033:    Female: 35 to 64 years: No disability
+        AU9JE034:    Female: 65 to 74 years
+        AU9JE035:    Female: 65 to 74 years: With a disability
+        AU9JE036:    Female: 65 to 74 years: No disability
+        AU9JE037:    Female: 75 years and over
+        AU9JE038:    Female: 75 years and over: With a disability
+        AU9JE039:    Female: 75 years and over: No disability
+ 
+    Table 3:     Health Insurance Coverage Status by Sex by Age
+    Universe:    Civilian noninstitutionalized population
+    Source code: B27001
+    NHGIS code:  AVH7
+        AVH7E001:    Total
+        AVH7E002:    Male
+        AVH7E003:    Male: Under 6 years
+        AVH7E004:    Male: Under 6 years: With health insurance coverage
+        AVH7E005:    Male: Under 6 years: No health insurance coverage
+        AVH7E006:    Male: 6 to 18 years
+        AVH7E007:    Male: 6 to 18 years: With health insurance coverage
+        AVH7E008:    Male: 6 to 18 years: No health insurance coverage
+        AVH7E009:    Male: 19 to 25 years
+        AVH7E010:    Male: 19 to 25 years: With health insurance coverage
+        AVH7E011:    Male: 19 to 25 years: No health insurance coverage
+        AVH7E012:    Male: 26 to 34 years
+        AVH7E013:    Male: 26 to 34 years: With health insurance coverage
+        AVH7E014:    Male: 26 to 34 years: No health insurance coverage
+        AVH7E015:    Male: 35 to 44 years
+        AVH7E016:    Male: 35 to 44 years: With health insurance coverage
+        AVH7E017:    Male: 35 to 44 years: No health insurance coverage
+        AVH7E018:    Male: 45 to 54 years
+        AVH7E019:    Male: 45 to 54 years: With health insurance coverage
+        AVH7E020:    Male: 45 to 54 years: No health insurance coverage
+        AVH7E021:    Male: 55 to 64 years
+        AVH7E022:    Male: 55 to 64 years: With health insurance coverage
+        AVH7E023:    Male: 55 to 64 years: No health insurance coverage
+        AVH7E024:    Male: 65 to 74 years
+        AVH7E025:    Male: 65 to 74 years: With health insurance coverage
+        AVH7E026:    Male: 65 to 74 years: No health insurance coverage
+        AVH7E027:    Male: 75 years and over
+        AVH7E028:    Male: 75 years and over: With health insurance coverage
+        AVH7E029:    Male: 75 years and over: No health insurance coverage
+        AVH7E030:    Female
+        AVH7E031:    Female: Under 6 years
+        AVH7E032:    Female: Under 6 years: With health insurance coverage
+        AVH7E033:    Female: Under 6 years: No health insurance coverage
+        AVH7E034:    Female: 6 to 18 years
+        AVH7E035:    Female: 6 to 18 years: With health insurance coverage
+        AVH7E036:    Female: 6 to 18 years: No health insurance coverage
+        AVH7E037:    Female: 19 to 25 years
+        AVH7E038:    Female: 19 to 25 years: With health insurance coverage
+        AVH7E039:    Female: 19 to 25 years: No health insurance coverage
+        AVH7E040:    Female: 26 to 34 years
+        AVH7E041:    Female: 26 to 34 years: With health insurance coverage
+        AVH7E042:    Female: 26 to 34 years: No health insurance coverage
+        AVH7E043:    Female: 35 to 44 years
+        AVH7E044:    Female: 35 to 44 years: With health insurance coverage
+        AVH7E045:    Female: 35 to 44 years: No health insurance coverage
+        AVH7E046:    Female: 45 to 54 years
+        AVH7E047:    Female: 45 to 54 years: With health insurance coverage
+        AVH7E048:    Female: 45 to 54 years: No health insurance coverage
+        AVH7E049:    Female: 55 to 64 years
+        AVH7E050:    Female: 55 to 64 years: With health insurance coverage
+        AVH7E051:    Female: 55 to 64 years: No health insurance coverage
+        AVH7E052:    Female: 65 to 74 years
+        AVH7E053:    Female: 65 to 74 years: With health insurance coverage
+        AVH7E054:    Female: 65 to 74 years: No health insurance coverage
+        AVH7E055:    Female: 75 years and over
+        AVH7E056:    Female: 75 years and over: With health insurance coverage
+        AVH7E057:    Female: 75 years and over: No health insurance coverage
+ 
+Data Type (M):
+    Margins of error
+ 
+        NAME_M:      Area Name
+ 
+    Table 1:     Poverty Status in the Past 12 Months by Sex by Age
+    Universe:    Population for whom poverty status is determined
+    Source code: B17001
+    NHGIS code:  AU77
+        AU77M001:    Total
+        AU77M002:    Income in the past 12 months below poverty level
+        AU77M003:    Income in the past 12 months below poverty level: Male
+        AU77M004:    Income in the past 12 months below poverty level: Male: Under 5 years
+        AU77M005:    Income in the past 12 months below poverty level: Male: 5 years
+        AU77M006:    Income in the past 12 months below poverty level: Male: 6 to 11 years
+        AU77M007:    Income in the past 12 months below poverty level: Male: 12 to 14 years
+        AU77M008:    Income in the past 12 months below poverty level: Male: 15 years
+        AU77M009:    Income in the past 12 months below poverty level: Male: 16 and 17 years
+        AU77M010:    Income in the past 12 months below poverty level: Male: 18 to 24 years
+        AU77M011:    Income in the past 12 months below poverty level: Male: 25 to 34 years
+        AU77M012:    Income in the past 12 months below poverty level: Male: 35 to 44 years
+        AU77M013:    Income in the past 12 months below poverty level: Male: 45 to 54 years
+        AU77M014:    Income in the past 12 months below poverty level: Male: 55 to 64 years
+        AU77M015:    Income in the past 12 months below poverty level: Male: 65 to 74 years
+        AU77M016:    Income in the past 12 months below poverty level: Male: 75 years and over
+        AU77M017:    Income in the past 12 months below poverty level: Female
+        AU77M018:    Income in the past 12 months below poverty level: Female: Under 5 years
+        AU77M019:    Income in the past 12 months below poverty level: Female: 5 years
+        AU77M020:    Income in the past 12 months below poverty level: Female: 6 to 11 years
+        AU77M021:    Income in the past 12 months below poverty level: Female: 12 to 14 years
+        AU77M022:    Income in the past 12 months below poverty level: Female: 15 years
+        AU77M023:    Income in the past 12 months below poverty level: Female: 16 and 17 years
+        AU77M024:    Income in the past 12 months below poverty level: Female: 18 to 24 years
+        AU77M025:    Income in the past 12 months below poverty level: Female: 25 to 34 years
+        AU77M026:    Income in the past 12 months below poverty level: Female: 35 to 44 years
+        AU77M027:    Income in the past 12 months below poverty level: Female: 45 to 54 years
+        AU77M028:    Income in the past 12 months below poverty level: Female: 55 to 64 years
+        AU77M029:    Income in the past 12 months below poverty level: Female: 65 to 74 years
+        AU77M030:    Income in the past 12 months below poverty level: Female: 75 years and over
+        AU77M031:    Income in the past 12 months at or above poverty level
+        AU77M032:    Income in the past 12 months at or above poverty level: Male
+        AU77M033:    Income in the past 12 months at or above poverty level: Male: Under 5 years
+        AU77M034:    Income in the past 12 months at or above poverty level: Male: 5 years
+        AU77M035:    Income in the past 12 months at or above poverty level: Male: 6 to 11 years
+        AU77M036:    Income in the past 12 months at or above poverty level: Male: 12 to 14 years
+        AU77M037:    Income in the past 12 months at or above poverty level: Male: 15 years
+        AU77M038:    Income in the past 12 months at or above poverty level: Male: 16 and 17 years
+        AU77M039:    Income in the past 12 months at or above poverty level: Male: 18 to 24 years
+        AU77M040:    Income in the past 12 months at or above poverty level: Male: 25 to 34 years
+        AU77M041:    Income in the past 12 months at or above poverty level: Male: 35 to 44 years
+        AU77M042:    Income in the past 12 months at or above poverty level: Male: 45 to 54 years
+        AU77M043:    Income in the past 12 months at or above poverty level: Male: 55 to 64 years
+        AU77M044:    Income in the past 12 months at or above poverty level: Male: 65 to 74 years
+        AU77M045:    Income in the past 12 months at or above poverty level: Male: 75 years and over
+        AU77M046:    Income in the past 12 months at or above poverty level: Female
+        AU77M047:    Income in the past 12 months at or above poverty level: Female: Under 5 years
+        AU77M048:    Income in the past 12 months at or above poverty level: Female: 5 years
+        AU77M049:    Income in the past 12 months at or above poverty level: Female: 6 to 11 years
+        AU77M050:    Income in the past 12 months at or above poverty level: Female: 12 to 14 years
+        AU77M051:    Income in the past 12 months at or above poverty level: Female: 15 years
+        AU77M052:    Income in the past 12 months at or above poverty level: Female: 16 and 17 years
+        AU77M053:    Income in the past 12 months at or above poverty level: Female: 18 to 24 years
+        AU77M054:    Income in the past 12 months at or above poverty level: Female: 25 to 34 years
+        AU77M055:    Income in the past 12 months at or above poverty level: Female: 35 to 44 years
+        AU77M056:    Income in the past 12 months at or above poverty level: Female: 45 to 54 years
+        AU77M057:    Income in the past 12 months at or above poverty level: Female: 55 to 64 years
+        AU77M058:    Income in the past 12 months at or above poverty level: Female: 65 to 74 years
+        AU77M059:    Income in the past 12 months at or above poverty level: Female: 75 years and over
+ 
+    Table 2:     Sex by Age by Disability Status
+    Universe:    Civilian noninstitutionalized population
+    Source code: B18101
+    NHGIS code:  AU9J
+        AU9JM001:    Total
+        AU9JM002:    Male
+        AU9JM003:    Male: Under 5 years
+        AU9JM004:    Male: Under 5 years: With a disability
+        AU9JM005:    Male: Under 5 years: No disability
+        AU9JM006:    Male: 5 to 17 years
+        AU9JM007:    Male: 5 to 17 years: With a disability
+        AU9JM008:    Male: 5 to 17 years: No disability
+        AU9JM009:    Male: 18 to 34 years
+        AU9JM010:    Male: 18 to 34 years: With a disability
+        AU9JM011:    Male: 18 to 34 years: No disability
+        AU9JM012:    Male: 35 to 64 years
+        AU9JM013:    Male: 35 to 64 years: With a disability
+        AU9JM014:    Male: 35 to 64 years: No disability
+        AU9JM015:    Male: 65 to 74 years
+        AU9JM016:    Male: 65 to 74 years: With a disability
+        AU9JM017:    Male: 65 to 74 years: No disability
+        AU9JM018:    Male: 75 years and over
+        AU9JM019:    Male: 75 years and over: With a disability
+        AU9JM020:    Male: 75 years and over: No disability
+        AU9JM021:    Female
+        AU9JM022:    Female: Under 5 years
+        AU9JM023:    Female: Under 5 years: With a disability
+        AU9JM024:    Female: Under 5 years: No disability
+        AU9JM025:    Female: 5 to 17 years
+        AU9JM026:    Female: 5 to 17 years: With a disability
+        AU9JM027:    Female: 5 to 17 years: No disability
+        AU9JM028:    Female: 18 to 34 years
+        AU9JM029:    Female: 18 to 34 years: With a disability
+        AU9JM030:    Female: 18 to 34 years: No disability
+        AU9JM031:    Female: 35 to 64 years
+        AU9JM032:    Female: 35 to 64 years: With a disability
+        AU9JM033:    Female: 35 to 64 years: No disability
+        AU9JM034:    Female: 65 to 74 years
+        AU9JM035:    Female: 65 to 74 years: With a disability
+        AU9JM036:    Female: 65 to 74 years: No disability
+        AU9JM037:    Female: 75 years and over
+        AU9JM038:    Female: 75 years and over: With a disability
+        AU9JM039:    Female: 75 years and over: No disability
+ 
+    Table 3:     Health Insurance Coverage Status by Sex by Age
+    Universe:    Civilian noninstitutionalized population
+    Source code: B27001
+    NHGIS code:  AVH7
+        AVH7M001:    Total
+        AVH7M002:    Male
+        AVH7M003:    Male: Under 6 years
+        AVH7M004:    Male: Under 6 years: With health insurance coverage
+        AVH7M005:    Male: Under 6 years: No health insurance coverage
+        AVH7M006:    Male: 6 to 18 years
+        AVH7M007:    Male: 6 to 18 years: With health insurance coverage
+        AVH7M008:    Male: 6 to 18 years: No health insurance coverage
+        AVH7M009:    Male: 19 to 25 years
+        AVH7M010:    Male: 19 to 25 years: With health insurance coverage
+        AVH7M011:    Male: 19 to 25 years: No health insurance coverage
+        AVH7M012:    Male: 26 to 34 years
+        AVH7M013:    Male: 26 to 34 years: With health insurance coverage
+        AVH7M014:    Male: 26 to 34 years: No health insurance coverage
+        AVH7M015:    Male: 35 to 44 years
+        AVH7M016:    Male: 35 to 44 years: With health insurance coverage
+        AVH7M017:    Male: 35 to 44 years: No health insurance coverage
+        AVH7M018:    Male: 45 to 54 years
+        AVH7M019:    Male: 45 to 54 years: With health insurance coverage
+        AVH7M020:    Male: 45 to 54 years: No health insurance coverage
+        AVH7M021:    Male: 55 to 64 years
+        AVH7M022:    Male: 55 to 64 years: With health insurance coverage
+        AVH7M023:    Male: 55 to 64 years: No health insurance coverage
+        AVH7M024:    Male: 65 to 74 years
+        AVH7M025:    Male: 65 to 74 years: With health insurance coverage
+        AVH7M026:    Male: 65 to 74 years: No health insurance coverage
+        AVH7M027:    Male: 75 years and over
+        AVH7M028:    Male: 75 years and over: With health insurance coverage
+        AVH7M029:    Male: 75 years and over: No health insurance coverage
+        AVH7M030:    Female
+        AVH7M031:    Female: Under 6 years
+        AVH7M032:    Female: Under 6 years: With health insurance coverage
+        AVH7M033:    Female: Under 6 years: No health insurance coverage
+        AVH7M034:    Female: 6 to 18 years
+        AVH7M035:    Female: 6 to 18 years: With health insurance coverage
+        AVH7M036:    Female: 6 to 18 years: No health insurance coverage
+        AVH7M037:    Female: 19 to 25 years
+        AVH7M038:    Female: 19 to 25 years: With health insurance coverage
+        AVH7M039:    Female: 19 to 25 years: No health insurance coverage
+        AVH7M040:    Female: 26 to 34 years
+        AVH7M041:    Female: 26 to 34 years: With health insurance coverage
+        AVH7M042:    Female: 26 to 34 years: No health insurance coverage
+        AVH7M043:    Female: 35 to 44 years
+        AVH7M044:    Female: 35 to 44 years: With health insurance coverage
+        AVH7M045:    Female: 35 to 44 years: No health insurance coverage
+        AVH7M046:    Female: 45 to 54 years
+        AVH7M047:    Female: 45 to 54 years: With health insurance coverage
+        AVH7M048:    Female: 45 to 54 years: No health insurance coverage
+        AVH7M049:    Female: 55 to 64 years
+        AVH7M050:    Female: 55 to 64 years: With health insurance coverage
+        AVH7M051:    Female: 55 to 64 years: No health insurance coverage
+        AVH7M052:    Female: 65 to 74 years
+        AVH7M053:    Female: 65 to 74 years: With health insurance coverage
+        AVH7M054:    Female: 65 to 74 years: No health insurance coverage
+        AVH7M055:    Female: 75 years and over
+        AVH7M056:    Female: 75 years and over: With health insurance coverage
+        AVH7M057:    Female: 75 years and over: No health insurance coverage
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Jonathan Schroeder, David Van Riper, Steven Manson, Grace Cooper, Zachary Krause, Tracy Kugler, Tsu Zhu, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 21.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2026. 
+        http://doi.org/10.18128/D050.V21.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
