@@ -76,7 +76,7 @@ def GenerateTract(rng, tracts, beta):
 def Simulation(tracts, beta, R, seed):
   rng = np.random.default_rng(seed)
   records = [GenerateTract(rng, tracts, beta) for _ in range(R)]
-  return pd.DataFrame(records, columns=["before", "after", "deamnd_inc"])
+  return pd.DataFrame(records, columns=["before", "after", "demand_inc"])
 
 """compute summary stats and quantiles for specific column"""
 def SummarizeCol(df_sim, col, beta):
