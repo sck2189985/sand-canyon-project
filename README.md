@@ -1,9 +1,7 @@
 # Scratch Final Project Repo
 ## By: Shelby, Taylor, Kirk, and Seun
 
-This repository contains American Community Survey (ACS) Public Use Microdata Sample (PUMS) housing and person records, notebooks for cleaning and analyzing these records, aggregate reference data, and supporting ACS documentation.
-
-## For Project Checkpoint 2 Grading Purposes
+## For Project Checkpoint 3 Grading Purposes
 
 Please refer to the `PUMS Data FINAL` and `Agg Data FINAL` folders for our cleaned datasets. Our basic statistical analysis for Checkpoint 2 is in the `PUMS stats files` folder
 
