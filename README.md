@@ -1,9 +1,19 @@
 # Scratch Final Project Repo
 ## By: Shelby, Taylor, Kirk, and Seun
 
+## Project Overview
+
+This project examines the role of Sand Canyon Health Center in geographic healthcare accessibility across rural western Nebraska. Our goal is to evaluate how healthcare facilities are distributed relative to population and community-level socioeconomic needs, and to explore how the availability of individual facilities may affect geographic access.
+
+The analysis combines American Community Survey (ACS) data, healthcare facility information, Census geographic data, and population estimates. We are developing a spatial analysis framework to compare healthcare accessibility across communities and evaluate potential changes in access under alternative facility-availability scenarios.
+
+## Research Question
+
+To what extent does Sand Canyon Health Center contribute to geographic healthcare accessibility in rural western Nebraska, particularly for communities with greater socioeconomic and healthcare needs?
+
 ## For Project Checkpoint 3 Grading Purposes
 
-Please refer to the `Agg Data FINAL` folder, which contains `Panhandle_Final_Project_Data.csv`.
+Please refer to the `Agg Data FINAL` folder, which contains `Panhandle_Final_Project_Data.csv`. Also see `Distance_calc_code.ipynb` and `SandCanyonMC.py`
 
 ## Repository Folders
 
