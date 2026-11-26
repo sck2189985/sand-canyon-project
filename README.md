@@ -3,7 +3,7 @@
 
 ## For Project Checkpoint 3 Grading Purposes
 
-Please refer to the `PUMS Data FINAL` and `Agg Data FINAL` folders for our cleaned datasets. Our basic statistical analysis for Checkpoint 2 is in the `PUMS stats files` folder
+Please refer to the `Agg Data FINAL` folder, which contains `Panhandle_Final_Project_Data.csv`.
 
 ## Repository Folders
 
